@@ -1,0 +1,8 @@
+
+7
+java:S1220""Move this file to a named package.8í¹ô—à1
+\
+java:S1854"?Remove this useless assignment to local variable "vehicleList".(Ú…Á‚8ñ¹ô—à1
+M
+java:S1481"0Remove this unused "vehicleList" local variable.(Ú…Á‚8ò¹ô—à1
+F	java:S106"+Replace this use of System.out by a logger.(üõÈs8Ìµö—à1
