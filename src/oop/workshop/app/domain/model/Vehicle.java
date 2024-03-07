@@ -1,9 +1,9 @@
-package oop.workshop.app.model;
+package oop.workshop.app.domain.model;
 
-import oop.workshop.app.services.vehicle.MoveForward;
-import oop.workshop.app.services.vehicle.ParkVehicle;
-import oop.workshop.app.services.vehicle.StopVehicle;
-import oop.workshop.app.services.vehicle.TurnRightVehicle;
+import oop.workshop.app.domain.services.vehicle.MoveForward;
+import oop.workshop.app.domain.services.vehicle.ParkVehicle;
+import oop.workshop.app.domain.services.vehicle.StopVehicle;
+import oop.workshop.app.domain.services.vehicle.TurnRightVehicle;
 
 public abstract class Vehicle implements MoveForward, StopVehicle, TurnRightVehicle, ParkVehicle {
 
@@ -20,6 +20,16 @@ public abstract class Vehicle implements MoveForward, StopVehicle, TurnRightVehi
     this.brand = brand;
     this.maxSpeed = maxSpeed;
     this.color = color;
+  }
+
+  @Override
+  public String toString() {
+    return "Vehicle {" +
+        " plate: '" + plate + '\'' +
+        ", brand: '" + brand + '\'' +
+        ", maxSpeed: '" + maxSpeed + '\'' +
+        ", color: '" + color + '\'' +
+        '}';
   }
 
   public void setPlate(String plate) {

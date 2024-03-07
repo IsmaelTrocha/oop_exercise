@@ -1,4 +1,4 @@
-package oop.workshop.app.model;
+package oop.workshop.app.domain.model;
 
 public class Car extends Vehicle {
 
@@ -11,6 +11,14 @@ public class Car extends Vehicle {
 
   public Car( ) {
 
+  }
+
+  public Boolean getAutomatic() {
+    return isAutomatic;
+  }
+
+  public void setAutomatic(Boolean automatic) {
+    isAutomatic = automatic;
   }
 
   @Override

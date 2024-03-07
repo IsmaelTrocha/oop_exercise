@@ -1,4 +1,4 @@
-package oop.workshop.app.model;
+package oop.workshop.app.domain.model;
 
 public final class MotorCycle extends Vehicle{
 
