@@ -1,4 +1,4 @@
-package oop.workshop.app.services.vehicle;
+package oop.workshop.app.domain.services.vehicle;
 
 public interface TurnRightVehicle {
 

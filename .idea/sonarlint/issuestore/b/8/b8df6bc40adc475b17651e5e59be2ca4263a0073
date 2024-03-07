@@ -1,0 +1,41 @@
+
+\
+java:S1854#":Remove this useless assignment to local variable "bike10".(ùíÖ·ÿÿÿÿÿ8şş¾²à1
+[
+java:S1854""9Remove this useless assignment to local variable "bike9".(­Ìµãıÿÿÿÿ8şş¾²à1
+[
+java:S1854!"9Remove this useless assignment to local variable "bike8".(‹’™—ûÿÿÿÿ8şş¾²à1
+V
+java:S1854 "9Remove this useless assignment to local variable "bike7".(Æóç÷8şş¾²à1
+[
+java:S1854"9Remove this useless assignment to local variable "bike6".(˜Æ½ùÿÿÿÿ8şş¾²à1
+V
+java:S1854"9Remove this useless assignment to local variable "bike5".(–ë…ú8şş¾²à1
+V
+java:S1854"9Remove this useless assignment to local variable "bike4".(…Æöó8şş¾²à1
+U
+java:S1854"9Remove this useless assignment to local variable "bike3".(‚¡²&8şş¾²à1
+[
+java:S1854"9Remove this useless assignment to local variable "bike2".(¸ıÄğüÿÿÿÿ8şş¾²à1
+U
+java:S1854"9Remove this useless assignment to local variable "bike1".(ŒéÓc8€ÿ¾²à1
+F
+java:S1481"*Remove this unused "bike1" local variable.(ŒéÓc8ƒÿ¾²à1
+L
+java:S1481"*Remove this unused "bike2" local variable.(¸ıÄğüÿÿÿÿ8ƒÿ¾²à1
+F
+java:S1481"*Remove this unused "bike3" local variable.(‚¡²&8„ÿ¾²à1
+G
+java:S1481"*Remove this unused "bike4" local variable.(…Æöó8„ÿ¾²à1
+G
+java:S1481"*Remove this unused "bike5" local variable.(–ë…ú8„ÿ¾²à1
+L
+java:S1481"*Remove this unused "bike6" local variable.(˜Æ½ùÿÿÿÿ8„ÿ¾²à1
+G
+java:S1481 "*Remove this unused "bike7" local variable.(Æóç÷8…ÿ¾²à1
+L
+java:S1481!"*Remove this unused "bike8" local variable.(‹’™—ûÿÿÿÿ8…ÿ¾²à1
+L
+java:S1481""*Remove this unused "bike9" local variable.(­Ìµãıÿÿÿÿ8…ÿ¾²à1
+M
+java:S1481#"+Remove this unused "bike10" local variable.(ùíÖ·ÿÿÿÿÿ8†ÿ¾²à1
