@@ -11,6 +11,12 @@ import oop.workshop.app.infrastructure.adapter.vehicle.CreateCar;
 import oop.workshop.app.infrastructure.adapter.vehicle.CreateMotorCycle;
 import oop.workshop.app.infrastructure.adapter.vehiclesell.VehicleSellAdapter;
 
+/*
+* @author Ismael Trocha
+* @author Marcos Marin
+* @author Silfredo Blanco
+* */
+
 public class Main {
 
   public static void main(String[] args) {
