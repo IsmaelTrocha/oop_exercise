@@ -6,8 +6,6 @@ import oop.workshop.app.domain.services.vehicle.VehicleFactory;
 
 public class CreateMotorCycle implements VehicleFactory<MotorCycle> {
 
-  private static final Scanner scanner = new Scanner(System.in);
-
   @Override
   public MotorCycle createVehicle() {
     return new MotorCycle("ABC-123","Mazda","Rojo","20 KM",20.0,true);
