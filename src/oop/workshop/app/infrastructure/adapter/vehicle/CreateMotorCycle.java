@@ -1,4 +1,4 @@
-package oop.workshop.app.infrastructure.adapter;
+package oop.workshop.app.infrastructure.adapter.vehicle;
 
 import oop.workshop.app.domain.model.MotorCycle;
 import oop.workshop.app.domain.services.vehicle.VehicleFactory;

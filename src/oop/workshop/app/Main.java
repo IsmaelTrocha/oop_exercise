@@ -4,18 +4,29 @@ import java.util.List;
 import java.util.Map;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
+import oop.workshop.app.domain.model.Car;
 import oop.workshop.app.domain.model.MotorCycle;
 import oop.workshop.app.domain.model.Vehicle;
-import oop.workshop.app.infrastructure.adapter.CreateMotorCycle;
+import oop.workshop.app.infrastructure.adapter.vehicle.CreateCar;
+import oop.workshop.app.infrastructure.adapter.vehicle.CreateMotorCycle;
+import oop.workshop.app.infrastructure.adapter.vehiclesell.VehicleSellAdapter;
 
 public class Main {
 
   public static void main(String[] args) {
 
     CreateMotorCycle createMotorCycle = new CreateMotorCycle();
-    Vehicle motorCycle = createMotorCycle.createVehicle();
+    CreateCar createCar = new CreateCar();
+    MotorCycle motorCycle = createMotorCycle.createVehicle();
+    Car car = createCar.createVehicle();
+    VehicleSellAdapter vehicleSellAdapter = new VehicleSellAdapter();
 
-    System.out.println(motorCycle);
+    System.out.println(vehicleSellAdapter.generateVehicleSell(car));
+    System.out.println(vehicleSellAdapter.generateVehicleSell(motorCycle));;
+    System.out.println(motorCycle.toString());
+    System.out.println(car.toString());
+
+
   }
 
   static Map<String,List<MotorCycle>> getAllElectricMotorCycles(List<MotorCycle> vehicleList) {
