@@ -1,5 +1,6 @@
 package oop.workshop.app.domain.model;
 
+
 public class Car extends Vehicle {
 
   private Boolean isAutomatic;
