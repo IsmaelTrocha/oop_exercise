@@ -7,6 +7,6 @@ public class CreateCar implements VehicleFactory <Car> {
 
   @Override
   public Car createVehicle() {
-    return new Car("","","","",false);
+    return new Car("ABC-124","Chevrolet","300 KM","Negro",false);
   }
 }
